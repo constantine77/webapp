@@ -20,5 +20,6 @@ urlpatterns = [
 #   url('webapp/', include('webapp.urls')),
     url(r'^', include('personal.urls')),
     url(r'^blog/', include('blog.urls')),
+    url(r'^bitcoin/', include('bitcoin.urls', namespace='bitcoin')),
     
 ]
